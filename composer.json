@@ -20,5 +20,12 @@
         "psr-4": {
             "Arifabdd\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arifabdd\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
